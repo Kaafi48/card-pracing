@@ -153,8 +153,6 @@ button {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        height: 18%;
-        min-width: 15%;
        border-radius: 12px;
        background: rgb(153, 75, 255);
 
@@ -179,9 +177,11 @@ button {
 
        display: flex;
        flex-direction: row;
+       gap: 12px;
     }
     .plan-features li{
         color:#DFDF;
+        
     }
 
     }

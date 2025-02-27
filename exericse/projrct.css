@@ -145,35 +145,43 @@ button {
 
 /* Weyn (Desktop) */
 
-/* Dhexdhexaad (Tablet) */
-@media (max-width: 768px) {
-    .pracing-container {
-        flex-direction: row;
-        align-items: center;
-    }
-}
 
-/* Yar (Mobile) */
-@media (max-width: 480px) {
+
+@media (max-width: 1250px) {
     .price-planing {
-        width: 100%;
-        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 18%;
+        min-width: 15%;
+       border-radius: 12px;
+       background: rgb(153, 75, 255);
+
+        
     }
 
-    .price-title {
-        font-size: 18px;
+    .price-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 12px;
+        color: #fff;
+            
+    }
+    .plan-price{
+        display: flex;
+        flex-direction: row;
+        color: #fff;
+    }
+    .plan-features{
+
+       display: flex;
+       flex-direction: row;
+    }
+    .plan-features li{
+        color:#DFDF;
     }
 
-    .plan-price {
-        font-size: 24px;
     }
-
-    .plan-features li {
-        font-size: 18px;
-    }
-
-    .plan-button button {
-        width: 80px;
-        font-size: 16px;
-    }
-}

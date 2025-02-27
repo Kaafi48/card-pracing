@@ -183,5 +183,9 @@ button {
         color:#DFDF;
         
     }
+    .plan-button,
+button{
+    background-color: chocolate;
+}
 
     }

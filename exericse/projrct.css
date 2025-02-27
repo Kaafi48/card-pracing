@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pracing-container{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   height: 100vh;
+   gap: 20px;
+   flex-wrap: wrap;
+
+}
+
+.price-planing{
+    background: beige;
+    border-radius: 4px;
+}
+.price-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.plan-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px;
+}
+.plan-features{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    
+}
+.plan-features li {
+    color: rgb(165, 69, 255);
+    list-style: none;
+    font-size: 20px;
+}
+
+
+.price-planing ,.plan-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    padding: 12px;
+}
+
+.plan-button ,button{
+    background-color: red;
+    width: 90px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pracing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.price-planing {
+    background: beige;
+    border-radius: 4px;
+}
+
+.price-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.plan-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.plan-features {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.plan-features li {
+    color: rgb(165, 69, 255);
+    list-style: none;
+    font-size: 20px;
+}
+
+.price-planing,
+.plan-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    padding: 12px;
+}
+
+.plan-button,
+button {
+    background-color: red;
+    width: 90px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+/* Weyn (Desktop) */
+
+/* Dhexdhexaad (Tablet) */
+@media (max-width: 768px) {
+    .pracing-container {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+/* Yar (Mobile) */
+@media (max-width: 480px) {
+    .price-planing {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .price-title {
+        font-size: 18px;
+    }
+
+    .plan-price {
+        font-size: 24px;
+    }
+
+    .plan-features li {
+        font-size: 18px;
+    }
+
+    .plan-button button {
+        width: 80px;
+        font-size: 16px;
+    }
+}

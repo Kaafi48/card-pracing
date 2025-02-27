@@ -1,0 +1,47 @@
+
+
+.red{
+    display: flex;
+    flex-grow: 4;
+    width: 90px;
+    height: 30px;
+    background-color: red;
+}
+.yello{
+    width: 90px;
+    height: 30px;
+    background-color: yellow;
+}
+.blue{
+    display: flex;
+    flex-shrink: 3;
+    flex-basis: 200px;
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    order:2;
+}
+.green{
+    width: 90px;
+    height: 30px;
+    background-color: green;
+    flex-grow: 100%;
+}
+.black{
+    width: 90px;
+    height: 30px;
+    background-color: black;
+}
+.grey{
+    display: flex;
+    width: 90px;
+    height: 30px;
+    background-color: grey;
+    align-self: flex-start;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content:stretch
+}
